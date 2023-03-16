@@ -1,5 +1,5 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "name": "highcharts-react-native",
   "version": "3.1.7",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "SEE LICENSE IN <LICENSE>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/highcharts/highcharts-react-native.git"
+    "url": "git+https://github.com/harryy2510/highcharts-react-native.git"
   },
   "keywords": [
     "highcharts",
@@ -24,25 +24,26 @@
   ],
   "author": "Highcharts",
   "bugs": {
-    "url": "https://github.com/highcharts/highcharts-react-native"
+    "url": "https://github.com/harryy2510/highcharts-react-native"
   },
   "contributors": [
     "Sebastian Bochan <sebastian@blacklabel.pl>",
     "Daniel Studencki <daniel.studencki@gmail.com>"
   ],
-  "homepage": "https://github.com/highcharts/highcharts-react-native#readme",
+  "homepage": "https://github.com/harryy2510/highcharts-react-native#readme",
   "dependencies": {
-    "expo": "~38.0.8",
-    "react": "~16.11.0",
-    "react-dom": "~16.11.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
-    "react-native-web": "~0.11.7",
-    "react-native-webview": "10.6.0",
-    "@highcharts/highcharts-react-native": "./dist/"
+    "expo": "^48.0.0",
+    "expo-asset": "^8.9.1",
+    "expo-file-system": "^15.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.71.3",
+    "react-native-web": "^0.18.11",
+    "react-native-webview": "^11.26.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "babel-preset-expo": "~8.1.0",
+    "@babel/core": "^7.20.0",
+    "babel-preset-expo": "^9.3.0",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-rename": "^2.0.0",

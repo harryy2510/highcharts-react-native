@@ -1,21 +1,14 @@
-const {getDefaultConfig} = require('metro-config');
+const {getDefaultConfig} = require('expo/metro-config');
 
-module.exports = (async () => {
-  const {
-      resolver: { sourceExts, assetExts }
-  } = await getDefaultConfig()
-  return {
-      transformer: {
-          getTransformOptions: async () => ({
-              transform: {
-                  experimentalImportSupport: false,
-                  inlineRequires: false
-              }
-          })
-      },
-      resolver: {
-        sourceExts,
-        assetExts: [...assetExts, 'hcscript']
-      }
-    }
-})()
+const config = getDefaultConfig(__dirname);
+
+config.transformer.getTransformOptions = async () => ({
+  transform: {
+    experimentalImportSupport: false,
+    inlineRequires: false
+  }
+});
+
+config.resolver.assetExts.push('hcscript');
+
+module.exports = config;
