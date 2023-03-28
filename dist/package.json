@@ -1,15 +1,15 @@
 {
   "name": "highcharts-accevate",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "license": "SEE LICENSE IN <LICENSE>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harryy2510/highcharts-react-native.git"
   },
   "dependencies": {
-    "expo": "^48.0.0",
-    "expo-asset": "^8.9.1",
-    "expo-file-system": "^15.2.2"
+    "expo": "^47.0.13",
+    "expo-asset": "^8.7.0",
+    "expo-file-system": "^15.1.1"
   },
   "keywords": [
     "highcharts",
@@ -28,9 +28,9 @@
   "homepage": "https://github.com/harryy2510/highcharts-react-native#readme",
   "author": "Highcharts",
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.71.3",
-    "react-native-webview": "^11.26.0"
+    "react": "^18.1.0",
+    "react-native": "^0.70.5",
+    "react-native-webview": "^11.23.1"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
